@@ -1,0 +1,96 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(180deg, #1a0033, #2a004f, #3b0066);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding-top: 40px;
+    margin: 0;
+    color: white;
+    overflow-y: auto;
+}
+
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    width: 400px;
+    backdrop-filter: blur(10px);
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.8em;
+    color: #ffdf2b;
+    text-shadow: 0 0 10px #ffdf2b, 0 0 20px #ffb300;
+}
+
+.busca {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    padding: 15px;
+    width: 90%;
+    border-radius: 12px;
+    border: 2px solid #ffdf2b;
+    outline: none;
+    font-size: 1.1em;
+    text-align: center;
+    color: #222;
+}
+
+button {
+    margin-top: 15px;
+    padding: 12px 25px;
+    border: none;
+    background: #ff4747;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background: #ff2323;
+    transform: scale(1.05);
+}
+
+.card {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.oculto {
+    display: none;
+}
